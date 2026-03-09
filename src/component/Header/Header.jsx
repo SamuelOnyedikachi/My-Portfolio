@@ -7,7 +7,7 @@ import HeaderSocials from './HeaderSocials';
 const Header = () => {
   return (
     <header>
-      <div className="container header_container">
+      <div className="small_font container header_container">
         <h5>Hello I'm</h5>
         <h1>Samuel Onyedikachi</h1>
         <h5 className="text-light">Software Engineer</h5>
@@ -26,6 +26,7 @@ const Header = () => {
               decoding="async"
               width="600"
               height="600"
+              className="me-img"
             />
           </figure>
         </div>

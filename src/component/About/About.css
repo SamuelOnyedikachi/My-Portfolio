@@ -3,7 +3,7 @@
 .about__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: clamp(1rem, 2.5vw, 2rem);
+  gap: clamp(2rem, 2.5vw, 2.5rem);
   align-items: stretch; /* keep both columns equal height */
 }
 
@@ -198,6 +198,7 @@
     grid-template-columns: 1fr;
     gap: clamp(0.8rem, 3vw, 1.6rem);
   }
+
   .about__me {
     min-height: 260px;
     padding: 1rem;
@@ -218,6 +219,15 @@
   .about__me {
     min-height: 220px;
   }
+
+  .about__content {
+    margin-top: 20px;
+  }
+  #about{
+    padding: 1rem 2.5rem;
+    margin-bottom: 1150px;
+  }
+
   .about__figure {
     max-width: 320px;
   }

@@ -150,6 +150,7 @@ img {
     width: var(--container-width-md);
   }
 
+
   section {
     margin-top: 8rem;
     height: 100vh;
@@ -159,6 +160,13 @@ img {
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-SM);
+  }
+
+  .small_font > h1 {
+    font-size: 2rem;
+  }
+  .small_font > h5 {
+    font-size: 1rem;
   }
 
   section > h2 {
